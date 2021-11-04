@@ -1,4 +1,4 @@
-const { default: retry } = require('retry-with-logger');
+const { retry } = require('retry-with-logger');
 
 function myRetry(proc, method, options = {}) {
   return retry(method, {

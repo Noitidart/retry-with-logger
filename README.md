@@ -7,7 +7,7 @@ See `example/index.js` to see a bit more useful usage.
 ## Quick Start (Basic Usage)
 
 ```typescript
-import retry from 'retry-with-logger';
+import { retry } from 'retry-with-logger';
 
 try {
   const result = await retry(() => {

@@ -68,7 +68,7 @@ type AsyncReturnType<T extends (...args: any) => any> = T extends (
 // captures error to sentry every time error happens, even final time.
 // rejects with error if max retries reached
 // resolves with value of method if succeeds
-export default async function retry<T extends () => any>(
+export async function retry<T extends () => any>(
   method: T,
   options: IRetryOptions<{}> = {}
 ): Promise<AsyncReturnType<T>> {
