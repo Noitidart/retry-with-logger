@@ -1,6 +1,6 @@
 {
   "name": "retry-with-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple retry utility with logging.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -15,7 +15,12 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
-  "keywords": [],
+  "keywords": [
+    "retry",
+    "logging",
+    "logger",
+    "async"
+  ],
   "author": "Noitidart",
   "license": "MIT",
   "devDependencies": {
