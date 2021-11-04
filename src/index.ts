@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-type LogData = {
+type LogData = any & {
   retryCountMax: number;
   retryCount: number;
   retryBatchId: string;
@@ -8,7 +8,7 @@ type LogData = {
 
 type IsTerminalError = (error: Error) => boolean;
 
-interface IRetryOptions<ExtraLogData extends {}> {
+export interface IRetryOptions<ExtraLogData extends {}> {
   // default - 5
   maxRetryCount?: number;
 
