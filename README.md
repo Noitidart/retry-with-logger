@@ -4,6 +4,10 @@
 
 See `example/index.js` to see a bit more useful usage.
 
+## Typedoc
+
+https://noitidart.github.com/retry-with-logger/
+
 ## Quick Start (Basic Usage)
 
 ```typescript
