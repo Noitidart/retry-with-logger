@@ -18,4 +18,4 @@ try {
 }
 ```
 
-This will try running the function once, then if it fails it will retry default of 5 times.
+This will try running the function once, then if it fails it will retry default of 5 times with an interval of 200ms.
