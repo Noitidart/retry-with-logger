@@ -29,5 +29,9 @@
   },
   "dependencies": {
     "uuid": "^8.3.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Noitidart/retry-with-logger/issues"
+  },
+  "homepage": "https://github.com/Noitidart/retry-with-logger#readme"
 }
